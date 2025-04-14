@@ -27,7 +27,7 @@
         <dependencySet>
             <useProjectArtifact>false</useProjectArtifact>
             <includes>
-                <include>org.apache.axis2:axis2-webapp</include>
+                <include>org.ow2.petals.axis2:axis2-webapp</include>
             </includes>
             <outputFileNameMapping>axis2.war</outputFileNameMapping>
         </dependencySet>

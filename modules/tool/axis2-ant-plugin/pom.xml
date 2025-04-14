@@ -23,9 +23,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.axis2</groupId>
+        <groupId>org.ow2.petals.axis2</groupId>
         <artifactId>axis2</artifactId>
-        <version>2.0.1-SNAPSHOT</version>
+        <version>2.0.0-PETALS-0-SNAPSHOT</version>
         <relativePath>../../../pom.xml</relativePath>
     </parent>
 
@@ -44,32 +44,32 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-codegen</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-kernel</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-adb</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-adb-codegen</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-java2wsdl</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-jaxws</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -111,7 +111,7 @@
                         </goals>
                         <configuration>
                             <resourceBundles>
-                                <resourceBundle>org.apache.axis2:axis2-resource-bundle:${project.version}</resourceBundle>
+                                <resourceBundle>org.ow2.petals.axis2:axis2-resource-bundle:${project.version}</resourceBundle>
                             </resourceBundles>
                         </configuration>
                     </execution>

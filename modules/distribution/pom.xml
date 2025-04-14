@@ -22,13 +22,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.axis2</groupId>
+        <groupId>org.ow2.petals.axis2</groupId>
         <artifactId>axis2</artifactId>
-        <version>2.0.1-SNAPSHOT</version>
+        <version>2.0.0-PETALS-0-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
-    <groupId>org.apache.axis2</groupId>
+    <groupId>org.ow2.petals.axis2</groupId>
     <artifactId>distribution</artifactId>
     <packaging>pom</packaging>
 
@@ -49,130 +49,130 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-java2wsdl</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-kernel</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-adb</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-codegen</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-adb-codegen</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-xmlbeans</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-xmlbeans-codegen</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-jibx</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-jibx-codegen</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-json</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-spring</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-soapmonitor-servlet</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-fastinfoset</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-jaxbri-codegen</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-jaxws</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-metadata</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-clustering</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-saaj</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-ant-plugin</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>mex</artifactId>
             <version>${project.version}</version>
             <type>mar</type>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>mex</artifactId>
             <version>${project.version}</version>
             <type>jar</type>
             <classifier>impl</classifier>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-corba</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-mtompolicy</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-transport-http</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-transport-local</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -182,44 +182,44 @@
         </dependency>
         
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>soapmonitor</artifactId>
             <version>${project.version}</version>
             <type>mar</type>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>addressing</artifactId>
             <version>${project.version}</version>
             <type>mar</type>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>ping</artifactId>
             <version>${project.version}</version>
             <type>mar</type>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>scripting</artifactId>
             <version>${project.version}</version>
             <type>mar</type>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>mtompolicy</artifactId>
             <version>${project.version}</version>
             <type>mar</type>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-jaxws-mar</artifactId>
             <version>${project.version}</version>
             <type>mar</type>
         </dependency>
         
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>version</artifactId>
             <version>${project.version}</version>
             <type>aar</type>
@@ -287,7 +287,7 @@
         
         <!-- This is needed to build the WAR distribution -->
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-webapp</artifactId>
             <version>${project.version}</version>
             <type>war</type>
@@ -453,7 +453,7 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>org.apache.axis2</groupId>
+                <groupId>org.ow2.petals.axis2</groupId>
                 <artifactId>axis2-repo-maven-plugin</artifactId>
                 <executions>
                     <execution>

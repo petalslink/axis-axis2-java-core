@@ -23,9 +23,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.apache.axis2</groupId>
+        <groupId>org.ow2.petals.axis2</groupId>
         <artifactId>axis2</artifactId>
-        <version>2.0.1-SNAPSHOT</version>
+        <version>2.0.0-PETALS-0-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
@@ -52,43 +52,43 @@
             <artifactId>geronimo-annotation_1.0_spec</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-kernel</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>addressing</artifactId>
             <version>${project.version}</version>
             <type>mar</type>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-adb</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-saaj</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-metadata</artifactId>
             <version>${project.version}</version>
         </dependency>
          <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-transport-http</artifactId>
             <version>${project.version}</version>
         </dependency>
          <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-transport-local</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-jaxws</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -115,7 +115,7 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.apache.axis2</groupId>
+            <groupId>org.ow2.petals.axis2</groupId>
             <artifactId>axis2-testutils</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
@@ -156,7 +156,7 @@
         </testResources>
         <plugins>
             <plugin>
-                <groupId>org.apache.axis2</groupId>
+                <groupId>org.ow2.petals.axis2</groupId>
                 <artifactId>axis2-wsdl2code-maven-plugin</artifactId>
                 <version>${project.version}</version>
                 <executions>
@@ -180,7 +180,7 @@
                 </executions>
             </plugin>
             <plugin>
-                <groupId>org.apache.axis2</groupId>
+                <groupId>org.ow2.petals.axis2</groupId>
                 <artifactId>axis2-repo-maven-plugin</artifactId>
                 <executions>
                     <execution>
