@@ -1463,13 +1463,13 @@
                                     // Ensure that the <scm> element is present and correctly populated. This prevents
                                     // maven-release-plugin from adding an <scm> element in a location that is then rejected by
                                     // tidy-maven-plugin.
-                                    if (project.scm.url != "https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=summary") {
+                                    if (project.scm.url != "https://github.com/petalslink/axis-axis2-java-core") {
                                         throw new Error('project.scm.url not set correctly')
                                     }
-                                    if (project.scm.connection != "scm:git:https://gitbox.apache.org/repos/asf/axis-axis2-java-core.git") {
+                                    if (project.scm.connection != "scm:git:https://github.com/petalslink/axis-axis2-java-core.git") {
                                         throw new Error('project.scm.connection not set correctly')
                                     }
-                                    if (project.scm.developerConnection != "scm:git:https://gitbox.apache.org/repos/asf/axis-axis2-java-core.git") {
+                                    if (project.scm.developerConnection != "scm:git:https://github.com/petalslink/axis-axis2-java-core.git") {
                                         throw new Error('project.scm.developerConnection not set correctly')
                                     }
                                 ]]></script>
