@@ -29,7 +29,7 @@
 		<relativePath>../../../../pom.xml</relativePath>
 	</parent>
 
-	<groupId>org.apache.axis2.archetype</groupId>
+	<groupId>org.ow2.petals.axis2.archetype</groupId>
 	<artifactId>quickstart</artifactId>
 	<version>2.0.0-PETALS-0</version>
 	<packaging>maven-archetype</packaging>
