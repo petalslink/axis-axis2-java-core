@@ -38,9 +38,9 @@
 	<description>Maven archetype for creating a  Axis2 web Service as a webapp </description>
 
 	<scm>
-        <connection>scm:git:https://gitbox.apache.org/repos/asf/axis-axis2-java-core.git</connection>
-        <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/axis-axis2-java-core.git</developerConnection>
-        <url>https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=summary</url>
+        <connection>scm:git:https://github.com/petalslink/axis-axis2-java-core.git</connection>
+        <developerConnection>scm:git:https://github.com/petalslink/axis-axis2-java-core.git</developerConnection>
+        <url>https://github.com/petalslink/axis-axis2-java-core</url>
         <tag>HEAD</tag>
     </scm>
 
